@@ -1,6 +1,6 @@
 {
   "name": "typescript-plugin-file-replacement",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typescript transformer plugin to replace file content",
   "main": "dist/index.js",
   "scripts": {
