@@ -8,7 +8,7 @@ export interface Replacement {
 
 export default function typescriptPluginFileReplacement(
     program: ts.Program,
-    { replacements }: { replacements: Array<Replacement> }): ts.TransformerFactory<ts.Node> {
+    { replacements }: { replacements: Array<Replacement> }): ts.TransformerFactory<ts.SourceFile> {
   return (context) => {
     return (node) => {
       if(ts.isSourceFile(node)) {
