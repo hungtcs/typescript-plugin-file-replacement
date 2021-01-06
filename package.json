@@ -1,10 +1,11 @@
 {
   "name": "typescript-plugin-file-replacement",
   "version": "0.0.0",
-  "description": "",
+  "description": "typescript transformer plugin to replace file content",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
